@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+}
+form{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px 50px;
+}
+form input,textarea{
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-block: 20px;
+}
+form #Address{
+  height: 100px;
+}
+#div1{
+  display: flex;
+  width: 30%;
+  
+}
+#Names{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#Names div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#Names span{
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
+}
+#info .Values span{
+  font-size: 26px;
+}
+#info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
